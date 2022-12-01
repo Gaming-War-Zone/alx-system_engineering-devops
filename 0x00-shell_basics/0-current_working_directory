@@ -1,4 +1,4 @@
-#i /bin/bash
+#i/bin/bash
 
 ABSOLUTE_DIRECTORY="$(dirname "${ABS_SCRIPT_PATH}")"
 
