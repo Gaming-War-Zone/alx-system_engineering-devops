@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ABS_DIRECTORY="$(dirname "${ABS_SCRIPT_PATH}")"
+echo $( cd ${ABS_DIRECTORY}; ls )
