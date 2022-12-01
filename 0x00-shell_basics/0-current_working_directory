@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "this is teh output: "$(pwd)""
+echo $(dirname "${ABS_SCRIPT_PATH}")
