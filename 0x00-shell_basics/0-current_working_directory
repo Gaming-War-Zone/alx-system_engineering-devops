@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ""$(pwd)""
+echo "$(dirname "${ABS_SCRIPT_PATH}")"
