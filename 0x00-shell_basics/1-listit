@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $( cd "$(dirname "${ABS_SCRIPT_PATH}")"; ls )
+echo $(ls)
