@@ -1,0 +1,5 @@
+#i /bin/bash
+
+ABSOLUTE_DIRECTORY="$(dirname "${ABS_SCRIPT_PATH}")"
+
+echo "${ABSOLUTE_DIRECTORY}"
