@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ogu=rwx hello
+echo "$(chmod ogu=rwx hello)"
