@@ -1,2 +1,2 @@
 #!/bin/bash
-cat <<< $(awk 'FNR==3 {print}' iacta)
+tail -n 1 <<< $(head -n 3 iacta)
