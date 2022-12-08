@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -d " \t\n\r" <<< $(echo -e \"'(Ôo)'\' )
+tr -d " \t\r" <<< $(echo -e \"'(Ôo)'\' )
