@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'FNR==3 {print;exit}' test.txt
+awk 'FNR==3 {print;exit}' iacta
