@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'FNR == 3 { print; nextfile }' iacta
+awk 'NR==3' iacta
