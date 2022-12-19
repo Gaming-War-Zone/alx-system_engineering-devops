@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -o ":/" <<< $PATH | wc -l
+expr $(grep -o ":/" <<< $PATH | wc -l) + 1
